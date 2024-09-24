@@ -1,0 +1,184 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  display: flex;
+}
+
+a {
+  color: #81a1c1;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #88c0d0;
+}
+
+/* Side Navigation Bar */
+.side-nav {
+  width: 300px;
+  background-color: #1e1e1e;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.side-nav .profile-info {
+  text-align: center;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.profile-info h1 {
+  color: #eceff4;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.profile-info p {
+  color: #aeb6bf;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.side-nav ul {
+  list-style: none;
+  margin: 40px 0;
+}
+
+.nav-item {
+  display: block;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #e5e9f0;
+}
+
+.nav-item:hover {
+  background-color: #2e3440;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.social-icons {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 1.2rem;
+  color: #88c0d0;
+}
+
+/* Main Content */
+main {
+  margin-left: 300px;
+  padding: 50px;
+  flex: 1;
+}
+
+.hero-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  color: #eceff4;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  color: #aeb6bf;
+}
+
+/* About Section */
+.about-section {
+  padding: 100px 50px;
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #eceff4;
+}
+
+.about-section p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  color: #d8dee9;
+}
+
+/* Work Section */
+.work-section {
+  padding: 100px 50px;
+  background-color: #2e3440;
+}
+
+.work-section h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #eceff4;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 100px 50px;
+  background-color: #1e1e1e;
+  color: #eceff4;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contact-section form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-section input,
+.contact-section textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-section button {
+  padding: 15px 30px;
+  background-color: #81a1c1;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
